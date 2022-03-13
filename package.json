@@ -1,7 +1,7 @@
 {
-  "name": "node-oss-client",
+  "name": "node-oss-client-timeout",
   "version": "2.1.5",
-  "description": "Node.js client for Open Search Server.",
+  "description": "Node.js client for Open Search Server with timeout option. Forked from https://github.com/lemonde/node-oss-client.git",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/lemonde/node-oss-client.git"
+    "url": "https://github.com/a4i/node-oss-client-timeout.git"
   },
   "keywords": [
     "oss",
@@ -19,10 +19,10 @@
     "search",
     "server"
   ],
-  "author": "Greg Bergé <berge.greg@gmail.com>",
+  "author": "Sylvain Amrani <git@amrani.fr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lemonde/node-oss-client/issues"
+    "url": "https://github.com/a4i/node-oss-client-timeout/issues"
   },
   "dependencies": {
     "lodash": "~4.17.15",
